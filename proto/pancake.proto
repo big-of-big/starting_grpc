@@ -10,7 +10,7 @@ service PancakeBakeService {
   rpc Report(ReportRequest) returns (ReportResponse){}
 }
 
-message PanCake {
+message Pancake {
   enum Menu {
     UNKNOWN = 0;
     SPICY_CURRY = 1;
