@@ -5,6 +5,7 @@ option go_package = "gen/api";
 
 import "google/protobuf/timestamp.proto";
 
+// RegisterPancakeBakeServiceServerというメソッドができる
 service PancakeBakeService {
   rpc Bake(BakeRequest) returns (BakeResponse){}
   rpc Report(ReportRequest) returns (ReportResponse){}
