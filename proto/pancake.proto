@@ -1,4 +1,4 @@
-syntax ="proto3";
+syntax = "proto3";
 package pancake.maker;
 
 option go_package = "gen/api";
@@ -32,11 +32,11 @@ message Report {
   repeated BakeCount bake_counts = 1;
 }
 
-// pancakeのみでもいいが、ラップすることにより拡張性が高まる
 message BakeRequest {
   Pancake.Menu menu = 1;
 }
 
+// pancakeのみでもいいが、ラップすることにより拡張性が高まる
 message BakeResponse {
   Pancake pancake = 1;
 }
