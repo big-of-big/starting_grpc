@@ -21,7 +21,7 @@ message Pancake {
 
   string chef_name = 1;
   Menu menu = 2;
-  float technical_score =3;
+  float technical_score = 3;
   google.protobuf.Timestamp create_time = 15;
 }
 
