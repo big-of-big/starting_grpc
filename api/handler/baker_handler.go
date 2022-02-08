@@ -66,7 +66,7 @@ func (h *BakerHandler) Bake(
 
 func (h *BakerHandler) Report(
 	ctx context.Context,
-	req *api.BakeRequest,
+	req *api.ReportRequest,
 ) (*api.ReportResponse, error) {
 	counts := make([]*api.Report_BakeCount, 0)
 
